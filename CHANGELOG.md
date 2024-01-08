@@ -1,5 +1,46 @@
 # Changelog
 
+## [0.0.16](https://github.com/spectrocloud-labs/validator-plugin-vsphere/compare/v0.0.15...v0.0.16) (2024-01-08)
+
+
+### Bug Fixes
+
+* **deps:** update golang.org/x/exp digest to 02704c9 ([#148](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/148)) ([ecf0ca2](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/ecf0ca25a17122f5995656974faf9cf150f59533))
+* **deps:** update golang.org/x/exp digest to aacd6d4 ([#135](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/135)) ([3bb6bba](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/3bb6bbac419179501e946542581c78fc9764c282))
+* **deps:** update golang.org/x/exp digest to be819d1 ([#152](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/152)) ([0d81cb6](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/0d81cb68e4c0320cf65e99e18dfce4eb7e8a72dd))
+* **deps:** update golang.org/x/exp digest to dc181d7 ([#139](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/139)) ([85e9d4e](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/85e9d4e67c29242dca909e578a9f1be66f48c095))
+* **deps:** update golang.org/x/exp digest to f3f8817 ([#128](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/128)) ([9c22411](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/9c224114da63c4b25f7e25c538f1e08a37794ad3))
+* **deps:** update module github.com/go-logr/logr to v1.4.0 ([#146](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/146)) ([055785e](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/055785e627df6e08b4e6ec6325b15f6da319aba0))
+* **deps:** update module github.com/go-logr/logr to v1.4.1 ([#147](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/147)) ([114938f](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/114938f213ea7cad5580e41a3dc4cc2698a68e42))
+* **deps:** update module github.com/spectrocloud-labs/validator to v0.0.28 ([#120](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/120)) ([e5f0da5](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/e5f0da5c8b7733c3065568302c20832602a21d5e))
+* **deps:** update module github.com/spectrocloud-labs/validator to v0.0.30 ([#140](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/140)) ([d6eb777](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/d6eb777ee91f2accfa662e087e8c10583fdb8392))
+* **deps:** update module github.com/spectrocloud-labs/validator to v0.0.31 ([#149](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/149)) ([7a3335d](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/7a3335d109f3d269a272395a26344d941b145c92))
+* **deps:** update module github.com/spectrocloud-labs/validator to v0.0.32 ([#150](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/150)) ([d20321b](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/d20321bd1a53a9d3702154b4524b3f05f66d9b73))
+* **deps:** update module github.com/vmware/govmomi to v0.34.0 ([#133](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/133)) ([0bcfc6f](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/0bcfc6f7062a157931f8f1b7f1a4f3004b7928ea))
+* **deps:** update module github.com/vmware/govmomi to v0.34.1 ([#142](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/142)) ([04c8a18](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/04c8a18a2c870d4ee00d0dce0a2d361b107663bb))
+* **deps:** update module github.com/vmware/govmomi to v0.34.2 ([#153](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/153)) ([a338a82](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/a338a825fb7b4aef7cf74a71bff8d7ea50e4fc3f))
+
+
+### Other
+
+* **deps:** update actions/setup-go action to v5 ([#127](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/127)) ([ce18cbd](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/ce18cbd60a780a766dfaa389cb7a463257e6ce08))
+* **deps:** update actions/setup-python action to v5 ([#126](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/126)) ([4381f33](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/4381f332c7c3ed89dc3aaaa592d253b299ad6323))
+* **deps:** update actions/upload-artifact action to v4 ([#136](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/136)) ([91758cf](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/91758cfe69c4e2ad1e0484b9f4f702e308f182b3))
+* **deps:** update anchore/sbom-action action to v0.15.1 ([#124](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/124)) ([144d6c3](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/144d6c3dea7b951449a3e6eab588c02ac093f8b7))
+* **deps:** update anchore/sbom-action action to v0.15.2 ([#151](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/151)) ([988fdde](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/988fddec9de4755c4e3de4c5cb6fe54478e2b0d3))
+* **deps:** update anchore/sbom-action action to v0.15.3 ([#154](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/154)) ([f13a094](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/f13a094aba1f87d6a2fa911deba4840d16cd3533))
+* **deps:** update golang:1.21 docker digest to 11dc65e ([#141](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/141)) ([06faef9](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/06faef93c6ea316e03dc189225b097ab3e7a5bdf))
+* **deps:** update golang:1.21 docker digest to 1a9d253 ([#143](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/143)) ([712eb58](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/712eb58f8e5b64b2b7a3b389dc9883ec9e5939ac))
+* **deps:** update golang:1.21 docker digest to 25b05d5 ([#138](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/138)) ([8031596](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/8031596671d6ddc1e41a13e7773827e3a8e48945))
+* **deps:** update golang:1.21 docker digest to 2ff79bc ([#132](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/132)) ([80e09ca](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/80e09ca7620eb4481ebe3f86c4f3b9143c859f6a))
+* **deps:** update golang:1.21 docker digest to 58e14a9 ([#125](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/125)) ([6678369](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/66783694001853a027dae6ecd6401ffaabfbda34))
+* **deps:** update golang:1.21 docker digest to 672a228 ([#145](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/145)) ([ca19d48](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/ca19d482c6f63666a437687324139db738a2aae3))
+* **deps:** update golang:1.21 docker digest to ae34fbf ([#130](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/130)) ([3ea9b29](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/3ea9b29f29d4cda466b5d85804cb00875f7b6096))
+* **deps:** update golang:1.21 docker digest to fb02af5 ([#144](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/144)) ([e0af841](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/e0af841383283aea7ee3f8ff9beed003faa4608f))
+* **deps:** update google-github-actions/release-please-action action to v4 ([#122](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/122)) ([2061c1f](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/2061c1f5e87aee29e2e386eace87971d6c172d82))
+* **deps:** update google-github-actions/release-please-action digest to a2d8d68 ([#129](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/129)) ([de9f611](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/de9f611da73dd1561b2afd7c6a560f6e82e80c61))
+* **deps:** update google-github-actions/release-please-action digest to cc61a07 ([#137](https://github.com/spectrocloud-labs/validator-plugin-vsphere/issues/137)) ([0b719ce](https://github.com/spectrocloud-labs/validator-plugin-vsphere/commit/0b719cef766e7b368d1901db155106db18436a9f))
+
 ## [0.0.15](https://github.com/spectrocloud-labs/validator-plugin-vsphere/compare/v0.0.14...v0.0.15) (2023-11-30)
 
 
