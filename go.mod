@@ -1,6 +1,6 @@
 module github.com/spectrocloud-labs/validator-plugin-vsphere
 
-go 1.21.6
+go 1.22.1
 
 require (
 	emperror.dev/errors v0.8.1
